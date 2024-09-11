@@ -11,7 +11,7 @@
   border-radius: 5px;
   height: 65px;
 }
-.task-container h4 {
+.task-container h3 {
   flex: 1;
   text-align: left;
   margin-left: 20px;

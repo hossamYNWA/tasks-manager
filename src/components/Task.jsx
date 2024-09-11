@@ -16,7 +16,7 @@ const Task = ({ desc, removeItem }) => {
         style={{ fontSize: "1.1rem", cursor: "pointer" }}
         onClick={onRemove}
       />{" "}
-      <h4>{desc}</h4>
+      <h3>{desc}</h3>
       <input type="checkbox" onChange={checkboxHandler} />
     </div>
   );
