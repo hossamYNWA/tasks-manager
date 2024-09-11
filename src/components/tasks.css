@@ -9,6 +9,7 @@
   margin: 10px auto;
   color: rgb(168, 2, 2);
   border-radius: 5px;
+  height: 65px;
 }
 .task-container h4 {
   flex: 1;
