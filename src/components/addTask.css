@@ -7,12 +7,12 @@ div.add-box {
 }
 
 .add-box input {
-  height: 40px;
+  height: 60px;
   border: 1px solid gray;
   outline: 0;
   border-radius: 5px;
   padding: 12px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   width: 60%;
   color: rgb(59, 85, 63);
   font-weight: bold;
@@ -20,13 +20,14 @@ div.add-box {
 
 .add-box button {
   min-width: 100px;
-  height: 35px;
+  height: 55px;
   background-color: rgb(59, 85, 63);
   border: 0;
   outline: 0;
   border-radius: 3px;
   color: rgb(231, 238, 232);
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .add-box button:active {
