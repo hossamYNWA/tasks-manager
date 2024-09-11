@@ -10,11 +10,7 @@ const AddTask = ({ addItem }) => {
   };
   return (
     <div className="add-box">
-      <input
-        ref={taskRef}
-        type="text"
-        placeholder="enter new task description"
-      />
+      <input ref={taskRef} type="text" placeholder="enter new task" />
       <button type="button" onClick={addTaskHandler}>
         Add Task
       </button>
