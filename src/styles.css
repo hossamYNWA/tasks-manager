@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Reddit Sans Condensed", calibri, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(231, 238, 232);
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  width: 70%;
+  margin: 60px auto;
+  border-radius: 5px;
+  min-height: 100px;
+}

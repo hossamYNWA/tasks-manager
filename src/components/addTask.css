@@ -1,0 +1,34 @@
+div.add-box {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.add-box input {
+  height: 40px;
+  border: 1px solid gray;
+  outline: 0;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 0.8rem;
+  width: 60%;
+  color: rgb(59, 85, 63);
+  font-weight: bold;
+}
+
+.add-box button {
+  min-width: 100px;
+  height: 35px;
+  background-color: rgb(59, 85, 63);
+  border: 0;
+  outline: 0;
+  border-radius: 3px;
+  color: rgb(231, 238, 232);
+  font-weight: bold;
+}
+
+.add-box button:active {
+  transform: scale(0.9);
+}

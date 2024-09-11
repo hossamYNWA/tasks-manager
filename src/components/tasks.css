@@ -1,0 +1,28 @@
+.task-container {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 30px;
+  font-family: calibri, "Times New Roman", Times, serif;
+  margin: 10px auto;
+  color: rgb(168, 2, 2);
+  border-radius: 5px;
+}
+.task-container h4 {
+  flex: 1;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.task-container input {
+  accent-color: rgb(255, 255, 255);
+  transform: scale(1.2);
+}
+
+.checked,
+.checked h4 {
+  background-color: rgb(37, 134, 54);
+  color: white;
+}
